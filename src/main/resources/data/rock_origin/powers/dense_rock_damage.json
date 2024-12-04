@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+		"id": "*:*",
+		"attribute": "minecraft:generic.fall_damage_multiplier",
+		"operation": "add_multiplied_total",
+		"value": 1.1,
+		"amount": 1.1
+	},
+	"hidden": true
+}

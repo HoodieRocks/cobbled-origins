@@ -1,0 +1,14 @@
+{
+	"origin.rock_origin.rock.name": "Cobbled",
+	"origin.rock_origin.rock.description": "Cobbled are the offspring of creatures that look like stone blocks, these creatures break like stone and very rarely give birth.",
+	"power.rock_origin.dense_rock.name": "Dense Rock",
+	"power.rock_origin.dense_rock.description": "You are naturally very dense, meaning you fall very quickly through the air.",	
+	"power.rock_origin.no_armor.name": "No Armor",
+	"power.rock_origin.no_armor.description": "Your stone-like skin makes it very difficult to wear armor.",
+	"power.rock_origin.sword_resistance.name": "Sword Resistance",
+	"power.rock_origin.sword_resistance.description": "Your rocks make you a hard target to hit, however pickaxes can break through easier.",
+	"power.rock_origin.chipping.name": "Chipping",
+	"power.rock_origin.chipping.description": "When heavily damaged, you chip, and gain some extra sharpness.",
+	"power.rock_origin.stone_phase_toggle.name": "Rock Translocation",
+	"power.rock_origin.stone_phase_toggle.description": "When you are healthy, you can phase through the ground, moving much faster than most people."
+}

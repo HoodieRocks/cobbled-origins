@@ -1,0 +1,5 @@
+{
+    "type": "origins:modify_falling",
+    "velocity": 0.2,
+    "take_fall_damage": true
+}

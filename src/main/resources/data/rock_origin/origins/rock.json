@@ -1,0 +1,21 @@
+{
+    "powers": [
+        "origins:fire_immunity",
+        "rock_origin:dense_rock",
+        "origins:natural_armor",
+        "rock_origin:dense_rock_damage",
+        "rock_origin:sword_resistance",
+        "rock_origin:pickaxe_unresistance",
+        "rock_origin:chipping",
+        "rock_origin:stone_phasing_core",
+        "rock_origin:stone_phasing_boost",
+        "rock_origin:stone_phase_toggle"
+    ],
+    "icon": {
+        "id": "minecraft:cobblestone",
+        "item": "minecraft:cobblestone",
+        "amount": 1
+    },
+    "impact": 1,
+    "order": 0
+}
