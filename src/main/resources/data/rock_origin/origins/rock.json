@@ -1,9 +1,8 @@
 {
     "powers": [
         "origins:fire_immunity",
-        "rock_origin:dense_rock",
         "origins:natural_armor",
-        "rock_origin:dense_rock_damage",
+        "rock_origin:dense_rock",
         "rock_origin:sword_resistance",
         "rock_origin:pickaxe_unresistance",
         "rock_origin:chipping",

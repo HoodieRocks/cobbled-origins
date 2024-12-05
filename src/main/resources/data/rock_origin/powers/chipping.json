@@ -45,7 +45,7 @@
                 "effect": {
                     "id": "minecraft:instant_health",
                     "effect": "minecraft:instant_health",
-                    "duration": 20,
+                    "duration": 4,
                     "amplifier": 1,
                     "show_particles": false,
                     "show_icon": false
