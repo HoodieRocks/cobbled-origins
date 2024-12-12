@@ -62,6 +62,14 @@
 							{
 								"type": "origins:in_tag",
 								"tag": "minecraft:base_stone_overworld"
+							},
+							{
+								"type": "origins:in_tag",
+								"tag": "blockus:stone_blocks"
+							},
+							{
+								"type": "origins:in_tag",
+								"tag": "apoli:material/stone"
 							}
 						]
 					}
