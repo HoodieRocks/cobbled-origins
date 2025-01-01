@@ -4,41 +4,31 @@
         "type": "origins:modify_falling",
         "velocity": 0.2,
         "take_fall_damage": true,
-        "block_condition": {
-            "type": "origins:or",
-            "conditions": [
-                {
-                    "type": "origins:block",
-                    "block": "minecraft:lava",
-                    "inverted": true
-                },
-                {
-                    "type": "origins:block",
-                    "block": "minecraft:ladder",
-                    "inverted": true
-                }
-            ]
+        "condition": {
+            "type": "origins:in_block",
+            "block_condition": {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:block",
+                        "block": "minecraft:lava",
+                        "inverted": true
+                    },
+                    {
+                        "type": "origins:block",
+                        "block": "minecraft:ladder",
+                        "inverted": true
+                    }
+                ]
+            }
         }
     },
     "fall_damage": {
-        "type": "origins:attribute",
+        "type": "origins:modify_damage_taken",
         "modifier": {
-            "id": "*:*",
-            "attribute": "minecraft:generic.fall_damage_multiplier",
-            "operation": "add_multiplied_total",
-            "value": 1.1,
-            "amount": 1.1
-        },
-        "hidden": true
-    },
-    "safe_fall_distance": {
-        "type": "origins:attribute",
-        "modifier": {
-            "id": "*:*",
-            "attribute": "minecraft:generic.safe_fall_distance",
-            "operation": "add_multiplied_total",
-            "value": 2,
-            "amount": 2
+            "operation": "multiply_base_multiplicative",
+            "value": 1.2,
+            "amount": 1.2
         },
         "hidden": true
     }

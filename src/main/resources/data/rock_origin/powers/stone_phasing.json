@@ -1,88 +1,88 @@
 {
-	"type": "origins:multiple",
-	"core": {
-		"type": "origins:phasing",
-		"render_type": "blindness",
-		"view_distance": 5,
-		"block_condition": {
-			"type": "origins:or",
-			"conditions": [
-				{
-					"type": "origins:in_tag",
-					"tag": "minecraft:dirt"
-				},
-				{
-					"type": "origins:in_tag",
-					"tag": "minecraft:base_stone_overworld"
-				},
-				{
-					"type": "origins:in_tag",
-					"tag": "blockus:stone_blocks"
-				},
-				{
-					"type": "origins:in_tag",
-					"tag": "apoli:material/stone"
-				}
-			]
-		},
-		"phase_down_condition": {
-			"type": "origins:and",
-			"conditions": [
-				{
-					"type": "origins:sneaking"
-				},
-				{
-					"type": "origins:on_block"
-				}
-			]
-		},
-		"condition": {
-			"type": "origins:power_active",
-			"power": "rock_origin:stone_phase_toggle"
-		}
-	},
-	"boost": {
-		"type": "origins:conditioned_attribute",
-		"condition": {
-			"type": "origins:and",
-			"conditions": [
-				{
-					"type": "origins:power_active",
-					"power": "rock_origin:stone_phase_toggle"
-				},
-				{
-					"type": "origins:in_block",
-					"block_condition": {
-						"type": "origins:or",
-						"conditions": [
-							{
-								"type": "origins:in_tag",
-								"tag": "minecraft:dirt"
-							},
-							{
-								"type": "origins:in_tag",
-								"tag": "minecraft:base_stone_overworld"
-							},
-							{
-								"type": "origins:in_tag",
-								"tag": "blockus:stone_blocks"
-							},
-							{
-								"type": "origins:in_tag",
-								"tag": "apoli:material/stone"
-							}
-						]
-					}
-				}
-			]
-		},
-		"modifier": {
-			"id": "*:*",
-			"attribute": "minecraft:generic.movement_speed",
-			"operation": "add_multiplied_total",
-			"value": 2,
-			"amount": 2
-		},
-		"tick_rate": 5
-	}
+  "type": "origins:multiple",
+  "core": {
+    "type": "origins:phasing",
+    "render_type": "blindness",
+    "view_distance": 5,
+    "block_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:in_tag",
+          "tag": "minecraft:dirt"
+        },
+        {
+          "type": "origins:in_tag",
+          "tag": "minecraft:base_stone_overworld"
+        },
+        {
+          "type": "origins:in_tag",
+          "tag": "blockus:stone_blocks"
+        },
+        {
+          "type": "origins:in_tag",
+          "tag": "apoli:material/stone"
+        }
+      ]
+    },
+    "phase_down_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:sneaking"
+        },
+        {
+          "type": "origins:on_block"
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:power_active",
+      "power": "rock_origin:stone_phase_toggle"
+    }
+  },
+  "boost": {
+    "type": "origins:conditioned_attribute",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:power_active",
+          "power": "rock_origin:stone_phase_toggle"
+        },
+        {
+          "type": "origins:in_block",
+          "block_condition": {
+            "type": "origins:or",
+            "conditions": [
+              {
+                "type": "origins:in_tag",
+                "tag": "minecraft:dirt"
+              },
+              {
+                "type": "origins:in_tag",
+                "tag": "minecraft:base_stone_overworld"
+              },
+              {
+                "type": "origins:in_tag",
+                "tag": "blockus:stone_blocks"
+              },
+              {
+                "type": "origins:in_tag",
+                "tag": "apoli:material/stone"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "modifier": {
+      "id": "*:*",
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_total",
+      "value": 2,
+      "amount": 2
+    },
+    "tick_rate": 5
+  }
 }
